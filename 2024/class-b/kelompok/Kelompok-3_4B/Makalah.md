@@ -139,7 +139,7 @@ Dengan demikian, perdebatan open source versus closed source bukan hanya soal
 teknologi, tetapi juga soal ideologi yang mendasari struktur masyarakat modern.
 Kode sumber itu bukan hanya instruksi teknis, tetapi juga membawa ideologi. Closed source ideologi kapitalisme (privatisasi, kontrol, profit). Open source ideologi kolektif (akses terbuka, kerja sama, kebersamaan). Jadi, cara kita mengatur kode sumber ikut menentukan bentuk relasi sosial di masyarakat.
 
+# 3. PENUTUP
+Transformasi  teknologi sejak 1960-an hingga sekarang menunjukkan bahwa teknologi tidak pernah netral. Ia selalu berkembang dalam interaksi antara negara, swasta, komunitas teknis, dan ideologi. Negara berperan sebagai pengatur sekaligus penjaga kepentingan kapitalisme, memastikan teknologi diarahkan untuk mendukung industri besar. Sementara itu, sektor swasta menjadi motor utama komersialisasi dan inovasi, membentuk ekosistem digital global melalui kompetisi dan model bisnis baru.
 
-
-
-
+Budaya hacking, yang sering disalahpahami, justru memberi kontribusi besar dalam lahirnya perangkat lunak modern, keamanan siber, dan metode kerja kolaboratif. Sejak 1970-an, perdebatan open source dan closed source mencerminkan tarik-menarik antara kebebasan akses dan perlindungan aset komersial. Sikap terhadap keduanya bukan sekadar teknis, melainkan pilihan politik dan ideologis.
