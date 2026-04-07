@@ -36,9 +36,10 @@ Assalamualaikum Warahmatullahi Wabarakatuh.
 </p>
 <p align="justify">
 &nbsp;&nbsp;&nbsp;&nbsp;Makalah ini telah kami susun dengan maksimal dan mendapatkan bantuan dari berbagai pihak sehingga dapat memperlancar pembuatan makalah ini. Untuk itu kami menyampaikan banyak terima kasih kepada Bapak Al-Muhdil Karim, S.IP., M.Hum. selaku dosen Perpustakaan dan Kearsipan Digital dan semua pihak yang telah berkontribusi dalam penyusunan makalah ini. Dalam penyusunan makalah ini, kami menyadari bahwa makalah ini masih jauh dari kata sempurna. Sehingga kami selaku penyusun sangat mengharapkan kritik dan saran yang membangun dari pembaca sekalian. Akhir kata semoga makalah ini dapat memberikan manfaat untuk kelompok kami khususnya, dan para pembaca.
+<br>
 </p>
 
-<br>
+---
 <br>
 
 
@@ -80,7 +81,7 @@ Assalamualaikum Warahmatullahi Wabarakatuh.
 <br>
 </p>
 
-<br>
+---
 <br>
 
 **<p align="center">BAB II</p>**
@@ -134,7 +135,7 @@ Assalamualaikum Warahmatullahi Wabarakatuh.
 **2.6. Hubungan antara Kode Sumber Terbuka dan Kode Sumber Tertutup**
 
 
-<br>
+---
 <br>
 
 **<p align="center">BAB III</p>**
@@ -143,6 +144,8 @@ Assalamualaikum Warahmatullahi Wabarakatuh.
 
 **3.1. Kesimpulan**
 
+---
+<br>
 
 **<p align="center">DAFTAR PUSTAKA</p>**
 
