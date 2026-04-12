@@ -39,7 +39,7 @@ Berdasarkan pembahasan di atas, dapat disimpulkan bahwa buku Troublemakers karya
 
 Buku ini menunjukkan bahwa perkembangan teknologi didorong oleh individu kreatif dan perusahaan rintisan yang berani mengambil risiko, sehingga sangat relevan sebagai jawaban atas pertanyaan yang diajukan.
 
-$#REFERENSI
+##REFERENSI
 Berlin, Leslie. 2017. Troublemakers: Silicon Valley’s Coming of Age. New York: Simon & Schuster.
 Isaacson, Walter. 2014. The Innovators. New York: Simon & Schuster.
 Mazzucato, Mariana. 2013. The Entrepreneurial State. London: Anthem Press.
