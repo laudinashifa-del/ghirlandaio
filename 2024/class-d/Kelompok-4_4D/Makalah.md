@@ -18,5 +18,5 @@ Segala puji bagi Allah SWT yang telah memberikan kami kemudahan sehingga kami da
  Penulis mengucapkan syukur kepada Allah SWT atas limpahan nikmat sehatNya, baik itu berupa sehat fisik maupun akal pikiran, sehingga penulis mampu untuk menyelesaikan pembuatan makalah sebagai tugas dari Mata Kuliah Perpustakaan dan Arsip Digital dengan Judul "Etika Keamanan Siber pada Perpustakaan dan Lembaga Arsip Digital: Tantangan dan Strategi".
  Penulis tentu menyadari bahwa makalah ini masih jauh dari kata sempurna dan masih banyak terdapat kesalahan serta kekurangan didalamnya. Untuk itu, penulis mengharapkan kritik serta saran dari pembaca untuk makalah ini, supaya makalah ini nantinya dapat menjadi makalah yang lebih baik lagi. demikian, dan apabila terdapat banyak kesalahan pada makalah ini, penulis mohom maaf sebesar-besarnya. 
  Penulis juga mengucapkan terimakasih kepada dosen pengampu Bapak Al Muhdil Karim S.IP., M.Hum.
- Demikia, semoga makalah ini dapat bermanfaat, Terimakasih.
+ Demikian, semoga makalah ini dapat bermanfaat, Terimakasih.
 
