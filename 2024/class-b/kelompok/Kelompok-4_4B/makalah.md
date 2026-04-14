@@ -1,26 +1,28 @@
-<div align="center">
-<h1>Evolusi 5 Hukum Perpustakaan, Cyberethics, dan Keamanan Cyber dalam Pengelolaan Perpustakaan serta Arsip Digital</h1>
-Disusun untuk Memenuhi Tugas Mata Kuliah Perpustakaan dan Arsip Digital
+# **Evolusi 5 Hukum Perpustakaan, Cyberethics, dan Keamanan Cyber dalam Pengelolaan Perpustakaan serta Arsip Digital**
+*(Makalah ini disusun untuk Memenuhi Tugas Mata Kuliah Perpustakaan dan Arsip Digital)*
 
-<b><p> Dosen Pengampu:</p></b>
-Al Mudhil Karim S.Ip, M.Hum.
+**Dosen Pengampu:**
+
+Al Mudhil Karim S.IP, M.Hum.
 
 <img src="/2024/class-b/LOGO_UIN_JKT.png" width="500" height="600"><br><br>
 <br><br><br>
-<b>Disusun Oleh:</b><br>
-Dechri Vanesa Mecca (12402051010008)<br>
-Ananda Dwi Aryani (12402051030062)<br> 
-Hana Zada Videla (12402051050129)<br><br><br>
-<br>
-<b><p>PROGRAM STUDI ILMU PERPUSTAKAAN</p></b>
-<b><p>FAKULTAS ADAD DAN HUMANIORA</p></b>
-<b><p>UNIVERSITAS ISLAM NEGERI SYARIF HIDAYATULLAH JAKARTA<p/></b>
-<b>2026</br><br>
-</div> 
+**Disusun Oleh: Kelompok 4 - 4B**
+- Dechri Vanesa Mecca (12402051010008)<br>
+- Ananda Dwi Aryani (12402051030062)<br> 
+- Hana Zada Videla (12402051050129)<br><br><br>
 
-<div align="center">
-  <h1>KATA PENGANTAR</h1><br>
-</div>
+**PROGRAM STUDI ILMU PERPUSTAKAAN**
+
+**FAKULTAS ADAB DAN HUMANIORA**
+
+**UNIVERSITAS ISLAM NEGERI SYARIF HIDAYATULLAH JAKARTA**
+
+**2026**
+ 
+
+## KATA PENGANTAR ##
+
 
 Puji syukur kami panjatkan ke hadirat Tuhan Yang Maha Esa, karena atas rahmat dan karunia-Nya sehingga makalah yang berjudul "Evolusi 5 Hukum Perpustakaan, Cyberethics, dan Keamanan Cyber dalam pengelolaan Perpustakaan serta Arsip Digital" ini dapat diselesaikan dengan baik.
 
@@ -30,20 +32,18 @@ Kami menyadari bahwa makalah ini masih jauh dari kata sempurna dan terdapat keku
 
 <br>
 <br>
-<div align="right">
-  <p>Tangerang Selatan, 14 April 2026</p><br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <p>Kelompok 4</p>
+
+<p>Tangerang Selatan, 14 April 2026</p><br>
+<br>
+<br>
+<br>
+<br>
+<p>Kelompok 4</p>
 </div>
 
 
-<div align="center">
-   <h1>BAB I</h1>
-   <h1>PENDAHULUAN</h1>
-</div>
+# **BAB I** **PENDAHULUAN**
+
 
 **1.1 Latar Belakang**
 
@@ -61,6 +61,8 @@ Kami menyadari bahwa makalah ini masih jauh dari kata sempurna dan terdapat keku
 3. Untuk mengidentifikasi prinsip dasar keamanan cyber bagi perpustakaan digital dan lembaga arsip digital.
 4. Untuk menganalisis resiko keamanan perpustakaan dan arsip digital berdasarkan data historis.
 5. Untuk mengetahui vektor dasar keamanan siber bagi perpustakaan atau arsip digital.
+
+
 
 
 
