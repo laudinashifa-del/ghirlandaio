@@ -26,7 +26,7 @@ Hukum ini mengambil pendekatan dari sisi pembaca, seperti halnya Hukum Kedua. Mu
 
 ## Kesimpulan
 
-Menurut SR Ranganathan, hukum keempat yaitu “Save the Time of the Reader” menjelaskan bahwa perpustakaan harus ffokus pada penghemata waktu agar pustakawan atau pengguna bisa menemukan sumber atau informasi yang dibutuhkan dengan cepat dan mudah. Hal ini bisa dicapai dengan mengelola koleksi secara baik dan memiliki sistem klasifikasi yang jelas. Prinsip ini masih relevan saat ini karena perpustakaan harus mampu menyediakan akses informasi yang cepat, tepat, dan sesuai dengan kebutuhan pengguna.
+Menurut SR Ranganathan, hukum keempat yaitu “Save the Time of the Reader” menjelaskan bahwa perpustakaan harus fokus pada penghematan waktu agar pustakawan atau pengguna bisa menemukan sumber atau informasi yang dibutuhkan dengan cepat dan mudah. Hal ini bisa dicapai dengan mengelola koleksi secara baik dan memiliki sistem klasifikasi yang jelas. Prinsip ini masih relevan saat ini karena perpustakaan harus mampu menyediakan akses informasi yang cepat, tepat, dan sesuai dengan kebutuhan pengguna.
 
 ## Referensi
 
