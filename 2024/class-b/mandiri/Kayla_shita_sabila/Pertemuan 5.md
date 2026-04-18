@@ -2,7 +2,6 @@
 ## **Nim 12402051050126**
 --- 
 # Bagaimana perpustakaan dapat memastikan setiap pengguna mendapatkan informasi yang sesuai kebutuhannya?
-
 --- 
  ## **PENDAHULUAN**
 
@@ -20,10 +19,9 @@ Ketersediaan buku tentang pertanian untuk para petani
 Raganathan juga menekankan bahwa staf harus berusaha mengenal para pembaca, memiliki pengetahuan yang memadai tentang buku dan koleksi perpustakaan lainnya, untuk memberikan layanan rujukan dan membantu pembaca dengan segala cara yang memungkinkan. Hukum Kedua memberikan kewajiban lain kepada staf perpustakaan, yaitu menyediakan layanan bibliografi, pengindeksan, abstraksi, dan layanan lainnya kepada pengguna sesuai dengan kebutuhan mereka.
 Selain itu katalog sangat ditekankan karena untuk memudahkan pencarian rujukan oleh pembaca hingga menghasilkan informasi yang optimal. 
 Sistem akses terbuka ini dilakukan agar mudah diakses  oleh pemustaka, sehingga jika pemustaka tidak puas dia akan mencari lagi hingga sesuai dengan yg dia butuhkan lalu meningkatkan peluang mendapatkan buku pilihanya. Negara harus berperan dalam perpustakaan untuk menyebarkan ilmu pengetahuan bagi semua warganya. 
-
 ---
 # **KESIMPULAN**
-Pemustaka mendapatkan informasi kebutuhannya sesuai dengan penerapan raganathan no  dua “Every Reader his Book”. Dalam hal ini memandang semuanya secara setara tanpa pengecualian,karena semuannya berhak untuk mendapatkan informasi dan pengetahuan yang relevan. 
+Pemustaka mendapatkan informasi kebutuhannya sesuai dengan penerapan raganathan no  dua “Every Reader his Book”. Dalam hal ini memandang semuanya secara setara tanpa pengecualian, karena semuannya berhak untuk mendapatkan informasi dan pengetahuan yang relevan. 
 Semuanya terjadi karena peranan pustakawan yang aktif dalam membantu pemustaka,penggunaan katalog untuk memudahkan pencarian informasi,penggunaan sistem akses terbuka yang dimanfaatkan dengan baik sehingga menghasilkan informasi yang cepat dan tepat serta dukugan negara terhadap perpustakaan.  
 
 --- 
