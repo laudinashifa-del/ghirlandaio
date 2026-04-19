@@ -11,3 +11,7 @@ Faktor lain yang penting adalah kualitas pelayanan dari pengelola layanan. Penge
 Kemudian keamanan dan kepercayaan juga menjadi bagian dari kualitas layanan. Jika pengguna merasa bahwa data dan informasi mereka aman, maka mereka akan lebih percaya untuk menggunakan layanan tersebut. Dengan adanya rasa aman dan nyaman, pengguna akan lebih sering memanfaatkan layanan yang tersedia.
 # Kesimpulan
 Peningkatan kualitas layanan dapat menarik lebih banyak pengguna karena layanan yang baik memberikan kemudahan, kenyamanan, dan rasa aman bagi pengguna. Beberapa upaya yang dapat dilakukan antara lain menyediakan informasi yang relevan, mempermudah akses layanan, meningkatkan kemampuan pengelola layanan, serta menjaga keamanan data pengguna. Dengan kualitas layanan yang semakin baik, minat pengguna untuk memanfaatkan layanan juga akan meningkat.
+# Daftar Pustaka
+1. Putri, C. A., Anwar, R. K., Amar, S. C. D., & Rukmana, E. N. (2024). Keamanan Informasi dan Privasi Pengguna dalam Layanan Perpustakaan Digital. Media Pustakawan, 31(3), 266–276.
+2. Ranganathan, S. R. (1931). The Five Laws of Library Science. Madras: Madras Library Association.
+3. Salmi Addin, H., Anggraini, H., Nur Riya Putri Yenti, H., Wandan Sari, F., & Hidayat, I. (2024). Strategi Pengembangan Koleksi Perpustakaan Digital. Media Informasi, 33(1), 88–95.
