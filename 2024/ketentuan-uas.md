@@ -79,8 +79,9 @@ Seluruh tim diharapkan membaca dan memperhatikan peraturan-peraturan di bawah in
 4. Kemampuan dalam Mengimplementasikan Tingkat Keamanan Protokol : 10%
 
 ### Cakupan nilai akhir
-1. A
-2. A-
+1. A+
+2. A
+3. A-
 
 Tim yang menjadi juara akan mendapatkan tawaran berupa challenge untuk meraih nilai sempurna (100/A+) dengan syarat mampu menyeleseikannya
 
