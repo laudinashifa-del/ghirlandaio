@@ -89,14 +89,14 @@ Kitty merupakan emulator terminal berbasis OpenGL yang dapat diprogram dan mendu
 
 # DAFTAR PUSTAKA
 
-Arch Linux—ArchWiki. (2025, Desember 28). https://wiki.archlinux.org/title/Arch_Linux
+Arch Linux - ArchWiki. (2025, Desember 28). https://wiki.archlinux.org/title/Arch_Linux
 
-Dolphin—ArchWiki. (2026, April 19). https://wiki.archlinux.org/title/Dolphin
+Dolphin - ArchWiki. (2026, April 19). https://wiki.archlinux.org/title/Dolphin
 
 KDE - ArchWiki. (2026, Mei 15). https://wiki.archlinux.org/title/KDE
 
-Kitty—ArchWiki. (2026, April 10). https://wiki.archlinux.org/title/Kitty
+Kitty - ArchWiki. (2026, April 10). https://wiki.archlinux.org/title/Kitty
 
-NetworkManager—ArchWiki. (2026, Mei 10). https://wiki.archlinux.org/title/NetworkManager
+NetworkManager - ArchWiki. (2026, Mei 10). https://wiki.archlinux.org/title/NetworkManager
 
-PipeWire—ArchWiki. (2026, Mei 8). https://wiki.archlinux.org/title/PipeWire
+PipeWire - ArchWiki. (2026, Mei 8). https://wiki.archlinux.org/title/PipeWire
