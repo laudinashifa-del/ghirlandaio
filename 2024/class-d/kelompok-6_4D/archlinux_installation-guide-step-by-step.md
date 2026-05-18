@@ -86,6 +86,8 @@ mkfs. <br>
 
 >untuk home : mkfs.ext4 /dev/nama_partisi_untuk_home /mnt/home
 
+>untuk swap : mkswap /dev/nama_partisi_untuk_swap 
+
 [!info] mengapa harus FAT -F32 ? , karena linux harus menggunakan -F32 , mengapa menggunakan ext4 ? , karena ini yang lebih modern dan stabil dalam format sistemnya
 
 mount sekaligus mkdir <br> 
@@ -95,7 +97,7 @@ mount sekaligus mkdir <br>
 
 otomatis __membuat direktori dengan mkdir__ dan __mount point__ pada partisi yang ingin di mount pada __/mnt/boot__ dan __/mnt/home__
 
-swapon /dev/nama_partisi_untuk_swap //untuk swap 
+>swapon /dev/nama_partisi_untuk_swap //untuk swap <br>
 
 ### pacstrap /mnt 
 
