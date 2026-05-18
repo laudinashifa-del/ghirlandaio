@@ -1,24 +1,48 @@
 # Panduan Instalasi Arch Linux 
 
-Hal pertama yang dilakukan adalah mendownload archiso 
+Selamat datang di panduan instalasi Arch Linux Kelompok 5
 
-## Cara download archiso
+Panduan ini disusun untuk membantu melewati setiap langkah proses instalasi Arch Linux dengan mudah dan terstruktur menggunakan live system dari media resmi. 
 
-masuk ke website archlinux.org/download dan scroll ke bawah sampai ada indonesia lalu pencet citrahost.com
+Panduan ini juga dibuat sebagai bentuk dokumentasi dari tugas mata kuliah Perpustakaan dan Arsip Digital.
+
+## Cara Download Arch Iso
+
+Langkah pertama yang perlu dilakukan adalah mengunduh Archiso.
+
+Buka situs __archlinux.org/download__, lalu scroll ke bawah hingga menemukan bagian Indonesia dan pilih __citrahost.com__ sebagai mirror unduhan.
+
+---
 
 <img width="1600" height="1200" alt="WhatsApp Image 2026-05-15 at 20 00 43" src="https://github.com/user-attachments/assets/88246516-ca2e-44e4-af35-25c4be2e60d7" />
 
+---
+
+Lalu, klik yang muncul ke dua dalam baris, yaitu __archlinux-2026.05.01-x86_64.iso__
+
+---
+
 <img width="1599" height="899" alt="image" src="https://github.com/user-attachments/assets/c8afb423-76b7-486c-a2d1-db897269d7cb" />
 
-Lalu pencet yang ke dua yang . Iso
+---
 
-Lalu kalau sudah mendowload, download rufus cari di google lalu masuk ke websitenya
+Setelah file Arch Iso berhasil diunduh, langkah berikutnya adalah mengunduh __Rufus__. ketik __rufus.ie/id/__ untuk mengakses situs Rufus, lalu klik unduh untuk melakaukan pengunduhan.
+
+---
 
 <img width="1599" height="899" alt="image" src="https://github.com/user-attachments/assets/a51a3c48-7fce-4c9d-9a00-149805dbf073" />
 
-Sesuaikan dengan laptop (kalo saya si yang atas)
+---
 
-https://github.com/user-attachments/assets/acd78752-b682-45ee-8490-132e5b40a70e
+Sesuaikan dengan PC atau Laptop kalian. Untuk kelompok kami menggunakan versi yang ada di paling atas, __rufus-4.14.exe__ untuk platform Windows x64. 
+
+---
+
+https://github.com/user-attachments/assets/04ccc2bb-7ae9-4079-8077-a58033916058
+
+---
+
+## M
 
 Langkah awal ialah dengan cara memasukkan flashdisk ke laptop, lalu pencet tombol select dan pilih archiso yang telah didownload, untuk partition scheme, biasanya laptop baru menggunakan gpt.
 
