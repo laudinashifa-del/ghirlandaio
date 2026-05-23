@@ -18,4 +18,7 @@
 ### Langkah 6
 <img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/ff024c60-2bf0-46ab-8a31-ef9445facd1a" />
 
+### Langkah 7
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/2400fe4a-c163-4258-9c4d-25b6903d1685" />
 
+### Langkah 8
