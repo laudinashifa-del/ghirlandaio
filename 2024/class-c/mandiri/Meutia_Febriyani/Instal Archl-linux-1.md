@@ -2,6 +2,10 @@
 untuk memenuhi tugas matakuliah Perpustakaan dan Arsip Digital
 
 ## Hasil Dokumentasi proses instalasi linux dan kde Plasma 
+## PANDUAN INSTALASI ARCH LINUX 
+untuk memenuhi tugas matakuliah Perpustakaan dan Arsip Digital
+
+## HASIL DOKUMENTASI PROSES INSTALASI LINUX DAN KDE PLASMA  
 <img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/ee864998-fafa-4e3d-a8de-bb44a797b772" />
 
 <img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/d074beed-004d-4289-939e-c5397776f070" />
