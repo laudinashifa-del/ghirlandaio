@@ -1,3 +1,7 @@
+## Panduan Instalasi Arch Linux
+untuk memenuhi tugas matakuliah Perpustakaan dan Arsip Digital
+
+## Hasil Dokumentasi proses instalasi linux dan kde Plasma 
 ## PANDUAN INSTALASI ARCH LINUX 
 untuk memenuhi tugas matakuliah Perpustakaan dan Arsip Digital
 
