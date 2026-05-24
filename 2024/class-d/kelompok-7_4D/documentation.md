@@ -140,3 +140,28 @@ mkfs.ext4 /dev/proc/home
 ```
 mkfs.ext4 /dev/proc/[name]
 ```
+# packages
+## intel
+```
+pacstrap /mnt intel-ucode linux-lts linux-lts-headers linux-firmware lvm2 base base-devel neovim openssh superfile podman podman-desktop iptables mpd mpc mpv keepassxc secrets booster networkmanager pam_mount
+```
+
+## amd
+```
+pacstrap /mnt amd-ucode linux-lts linux-lts-headers linux-firmware lvm2 base base-devel neovim openssh superfile podman podman-desktop iptables mpd mpc mpv keepassxc secrets booster networkmanager pam_mount
+```
+
+
+## fstab
+```
+genfstab -U /mnt > /mnt/etc/fstab
+```
+## formating tmpfs ke tmp
+```
+echo "/tmpfs /tmp  tmpfs  defaults,nosuid,nodev,noexec,size=1G  0  0" >> /mnt/etc/fstab
+```
+
+## chroot
+```
+arch-chroot /mnt
+```
