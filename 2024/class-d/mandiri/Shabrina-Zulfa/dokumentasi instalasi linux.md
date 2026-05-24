@@ -171,24 +171,22 @@ Format root:
 
 ```bash
 mkfs.ext4 /dev/nvme0n1p7
+<img width="1040" height="585" alt="WhatsApp Image 2026-05-24 at 07 12 44" src="https://github.com/user-attachments/assets/78277c6d-1878-44c3-b231-3f4b8a23c38d" />
 ```
 
 Format swap:
-
-```bash
 mkswap /dev/nvme0n1p6
+<img width="1040" height="585" alt="image" src="https://github.com/user-attachments/assets/82611a21-5b50-46ca-af74-dc885f875438" />
 ```
 
 Aktifkan swap:
-
-```bash
 swapon /dev/nvme0n1p6
+<img width="1040" height="585" alt="image" src="https://github.com/user-attachments/assets/a9177abd-c6bc-47b1-833d-b0bfbef73c40" />
 ```
 
 Format EFI:
-
-```bash
 mkfs.fat -F32 /dev/nvme0n1p5
+<img width="4160" height="2340" alt="image" src="https://github.com/user-attachments/assets/d61baa0b-9c04-4f4f-b7f7-e0bb1260f6d2" />
 ```
 
 ---
@@ -196,15 +194,15 @@ mkfs.fat -F32 /dev/nvme0n1p5
 # 9. Mount Partisi
 
 Mount root:
-
-```bash
 mount /dev/nvme0n1p7 /mnt
+<img width="1040" height="585" alt="image" src="https://github.com/user-attachments/assets/19bb6288-6b11-4f74-a83b-bc0b097bd25a" />
 ```
 
 Mount EFI:
 
 ```bash
 mount --mkdir /dev/nvme0n1p5 /mnt/boot
+<img width="1280" height="410" alt="image" src="https://github.com/user-attachments/assets/d59426c6-ff7e-4d1d-9160-e2df9ad4e22b" />
 ```
 
 ---
@@ -223,14 +221,14 @@ pacstrap -K /mnt base base-devel linux linux-firmware neovim git networkmanager
 
 FSTAB digunakan untuk menentukan partisi yang otomatis dimount saat boot.
 
-```bash
 genfstab -U /mnt >> /mnt/etc/fstab
+<img width="1040" height="585" alt="image" src="https://github.com/user-attachments/assets/a9def841-9e74-4e8b-be72-b49f01f2f869" />
 ```
 
 Masuk ke sistem Arch:
 
-```bash
 arch-chroot /mnt
+<img width="1040" height="585" alt="image" src="https://github.com/user-attachments/assets/3fc94649-14d7-4e63-a880-d0b6b4d20403" />
 ```
 
 Digunakan untuk mengubah root install menjadi sistem Arch Linux yang baru dipasang.
