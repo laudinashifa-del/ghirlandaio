@@ -65,3 +65,78 @@ root = 49G [linux filesystem/]
 lsblk (lagi)
 ```
 ****
+# partition
+## setup lvm
+```
+pvcreate /dev/[partisi root]
+```
+```
+vgcreate proc /dev/[partisi root]
+```
+
+### logical volume
+```
+lvcreate -L size (G | M) proc -n root
+```
+```
+lvcreate -L size (G | M) proc -n vars
+```
+```
+lvcreate -L size (G | M) proc -n vtmp
+```
+```
+lvcreate -L size (G | M) proc -n vlog
+```
+```
+lvcreate -L size (G | M) proc -n vaud
+```
+```
+lvcreate -l50%FREE proc -n home
+```
+```
+lvcreate -L size (G | M) proc -n [name]
+```
+
+## setup luks
+```
+cryptsetup luksFormat /dev/proc/[name]
+```
+```
+cryptsetup luksOpen /dev/proc/ikhsan [nama device]
+```
+```
+mkfs.ext4 /dev/mapper/[nama device]
+```
+
+## formating 
+```
+mkfs.ext4 /dev/proc/root
+```
+
+```
+mkfs.vfat -F32 -n BOOT /dev/[partisi boot]
+```
+
+```
+mkfs.ext4 /dev/proc/vars
+```
+
+```
+mkfs.ext4 /dev/proc/vtmp
+```
+
+```
+mkfs.ext4 /dev/proc/vlog
+```
+
+```
+mkfs.ext4 /dev/proc/vaud
+```
+
+```
+mkfs.ext4 /dev/proc/home
+```
+
+```
+mkfs.ext4 /dev/proc/[name]
+```
