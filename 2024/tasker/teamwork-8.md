@@ -1,4 +1,4 @@
-# penugasan kelompok 7
+# penugasan kelompok 8
 
 # PERHATIAN
 Berdasarkan proses assesment terhadap penugasan, maka diharapkan hal berikut menjadi perhatian bagi peserta didik,
@@ -105,7 +105,7 @@ Anda diminta oleh atasan anda mempersiapkan server untuk aplikasi perpustakaan. 
 
 ### output:
 1. File cast dari asciinema, file cast yang dikumpulkan adalah semua percobaan yang dilakukan. Sehingga file yang dikumpulkan tidak hanya satu file.
-2. Untuk sistem operasi bisa menggunakan amanda yang secara default telah memiliki asciinema, sehingga perekaman bisa dilakukan tanpa SSH dan tampulan antarmuka. Operating system dapat di unduh di sini [download](https://packer.yuros.org/)
+2. Untuk sistem operasi bisa menggunakan amanda yang secara default telah memiliki asciinema, sehingga perekaman bisa dilakukan tanpa SSH dan tampulan antarmuka. Operating system dapat di unduh di sini [download](https://distro.yuros.org/)
 3. project github, minta kepada administrator kelas untuk membuat project baru dengan model iteratif.
 4. Rekaman audio penjelasan dari setiap file cast yang dikerjakan.
 5. untuk penggunaan asccinema telahbisa menggunakan panduan yang berada didalam direktori tutor yang telah disusun oleh saudara Ridho.
