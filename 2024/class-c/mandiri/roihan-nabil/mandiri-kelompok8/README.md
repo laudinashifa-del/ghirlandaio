@@ -2,6 +2,9 @@
 
 GDRIVE : https://drive.google.com/drive/folders/1iNwUuIP8r8PsKeijC56yIeCU8Li1sEo8
 
+oi part awal = instalasi os
+
+oi part satu-lima = config segala macem sampe arteri
 .
 
 .
