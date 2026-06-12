@@ -255,7 +255,7 @@ touch /etc/cmdline.d/{01-boot.conf,06-misc.conf}
 nvim /etc/cmdline.d/01-boot.conf
 ```
 ```
-echo "rd.luks.name=$(blkid -s UUID -o value /dev/(partisi root))=(nama user) root=/dev/(nama grup)/root" >> /etc/cmdline.d/01-boot.conf
+echo "rd.luks.name=$(blkid -s UUID -o value /dev/(partisi root))=(nama user) root=/dev/(nama grup)/root" > /etc/cmdline.d/01-boot.conf
 ```
 ```
 nvim /etc/cmdline.d/06-misc.conf
