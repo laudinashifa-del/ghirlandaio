@@ -188,3 +188,67 @@ echo "nama_user ALL=(ALL:ALL) ALL" >> /etc/sudoers.d/nama_user
 ```
 ### kernel
 ```
+mkdir /etc/cmdline.d
+```
+```
+touch /etc/cmdline.d/{01-boot.conf,06-misc.conf}
+```
+```
+echo "rd.luks.name=$(blkid -s UUID -o value /dev/nvme0n1p6)=xlim root=/dev/oxva/root" > /etc/cmdline.d/01-boot.conf
+```
+```
+echo "rw" > /etc/cmdline.d/06-misc.conf
+```
+### mkinitcpio
+```
+cd /boot
+```
+```
+mkdir kernel efi
+```
+```
+cd efi
+```
+```
+mkdir linux
+```
+```
+cd ..
+```
+```
+mv vmlinuz-* intel-* kernel
+```
+```
+rm -fr initramfs-*
+```
+```
+mv /etc/mkinitcpio.conf /etc/mkinitcpio.d/default.conf
+```
+```
+nvim /etc/mkinitcpio.d/default.conf
+```
+
+tambahkan lvm2 dan sd-encrypt setelah sd-vconsole
+
+```
+nvim /etc/mkinitcpio.d/linuxx-lts-preset
+```
+sesuaikan
+
+```
+bootctl --path=/boot install
+mkinitcpio -P
+systemctl enable iwd
+systemctl enable systemd-networkd.socket
+systemctl enable systemd-resolved
+```
+### finish
+```
+exit
+```
+```
+umount -R /mnt
+```
+```
+reboot
+```
