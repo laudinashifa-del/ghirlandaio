@@ -59,3 +59,132 @@ mkfs.ext4 /dev/xlim/root
 ```
 mount /dev/xlim/root /mnt
 ```
+### boot
+```
+mkfs.vfat -F32 -n BOOT /dev/nvme0n1p4
+```
+```
+mount --mkdir -o uid=0,gid=0,fmask=0077,dmask=0077 /dev/nvme0n1p4 /mnt/boot
+```
+### vars
+```
+lvcreate -L 15G oxva -n vars
+```
+```
+mkfs.ext4 /dev/oxva/vars
+```
+```
+mount --mkdir -o rw,nodev,nosuid,relatime /dev/oxva/vars /mnt/var
+```
+### tmp
+```
+lvcreate -L 5G oxva -n tmp
+```
+```
+mkfs.ext4 /dev/oxva/vtemp
+```
+```
+mount --mkdir -o rw,nodev,nosuid,relatime /dev/oxva/tmp /mnt/tmp
+```
+### vtemp
+```
+lvcreate -L 5G oxva -n vtemp
+```
+```
+mkfs.ext4 /dev/oxva/vtemp
+```
+```
+mount --mkdir -o rw,nodev,nosuid,noexec,relatime /dev/oxva/vtemp /mnt/var/tmp
+```
+### vlog
+```
+lvcreate  -L 5G oxva -n vlog
+```
+```
+mkfs.ext4 /dev/oxva/vlog
+```
+```
+mount --mkdir -o rw,nodev,oxva,noexec,relatime /dev/oxva/vlog /mnt/var/log
+```
+### Vaud
+```
+lvcreate -L 5G oxva -n vaud
+```
+```
+mkfs.ext4 /dev/oxva/vaud
+```
+```
+mount --mkdir -o rw,nodev,nosuid,noexec,relatime /dev/oxva/vaud /mnt/var/log/audit
+```
+### dock
+```
+lvcreate -L 10G oxva -n dock
+```
+```
+mkfs.ext4 /dev/oxva/dock
+```
+```
+mount --mkdir -o rw,nodev,nosuid,relatime /dev/oxva/dock /mnt/var/lib/docker
+```
+### home
+```
+lvcreate -l70%FREE oxva -n home
+```
+```
+mkfs.ext4 /dev/oxva/home
+```
+```
+mount --mkdir -o rw,nodev,nosuid,relatime /dev/oxva/home /mnt/home
+```
+## install package
+```
+lspci
+```
+```
+pacstrap /mnt intel-ucode base pacman sudo linux-lts linux-lts-headers lvm2 mkinitcpio linux-firmware-intel docker neovim git iwd asciinema linux-firmware-realtek firewalld
+```
+### regist partisi
+```
+genfstab -U /mnt > /mnt/etc/fstab
+```
+```
+genfstab -U /mnt > /mnt/etc/fstab
+```
+### chroot
+```
+arch-chroot /mnt
+```
+### time
+```
+ln -sf /usr/share/zoneinfo/Asia/Jakarta /etc/localtime
+```
+```
+hwclock --systohc
+```
+```
+nvim /etc/locale.gen
+```
+
+cari en us
+
+```
+locale-gen
+```
+```
+locale > /etc/locale.conf
+```
+```
+nvim /etc/locale.conf
+```
+### user
+```
+useradd -m iqbal
+```
+```
+passwd iqbal
+```
+```
+echo "nama_user ALL=(ALL:ALL) ALL" >> /etc/sudoers.d/nama_user
+```
+### kernel
+```
