@@ -1,6 +1,13 @@
-## Instalasi OS
+# Instalasi OS admin
 
-### nyalakan asciinema
+## Kelompok 10
+1. Kenari Namora Simanjuntak
+2. Luthfah Nurussalamah
+3. Toyibatul Nurambiya
+
+### Merekam Asciinema
+
+```asciinema rec nama_file.cast```
 
 ### Connect Wifi
 
@@ -8,21 +15,21 @@
 
 ```device list```
 
-**untuk cek driver wifi setiap laptop**
+**Cek driver wifi setiap laptop**
 
 ```station (driver wifi) get-network```
 
-**untuk melihat jaringan yang tersedia**
+**Melihat jaringan yang tersedia**
 
 ```station (driver wifi) scan```
 
-**untuk memindai jaringan yang ada**
+**Memindai jaringan yang ada**
 
 ```station {device wifi} connect "{nama wifi}"```
 
 ```exit```
 
-**untuk menghubungkan ke jaringan yang sudah ditentukan**
+**Menghubungkan ke jaringan yang sudah ditentukan**
 
 ## Periksa Jaringan 
 
@@ -30,11 +37,13 @@
 
 ## Check Partisi
 ### jika ingin melihat partisi beserta type nya
+
 ```lsblk -o name,fstype,size ```
-### jika ingin melihat partisinya saja
+
 ```lsblk```
 
 ## Bagi Partisi
+
 ```cfdisk /dev/[partisi]``` 
 
 **untuk membentuk layout yg mau di install**
@@ -45,113 +54,89 @@
 boot = 1G [EFI system]
 root = 49G [linux filesystem/]
 ```
+```lsblk```
 
-**jika salah satu partisi PENTING terhapus, langsung QUIT saja jangan di WRITE**
+## Setup LVM
 
-```lsblk``` (lagi)
+```pvcreate /dev/[partisi root]```
 
-## Cryptsetup dan Format LUKS
+```vgcreate proc /dev/[partisi root]```
 
-```cryptsetup luksFormat /dev/partisi_root```
+## Membuat Logical Volume 
 
-**lalu masukin password**
+```lvcreate -L 10G proc -n root```
 
-**Jika ada tulisan 'in use', hapus dulu PARTISI grupnya : ```vgsremove /dev/nama grup/nama partisi```nya. setelah dihapus, ```cryptsetup luksFormat /dev/partisi_root``` lagi**
+```lvcreate -L 10G proc -n vars```
 
-## Buka partisi luks
+```lvcreate -L 1G proc -n vtmp```
 
-```cryptsetup luksOpen /dev/(partisi_root) (nama_device)```
+```lvcreate -L 1G proc -n vlog```
 
-## Buat physical volume
+```lvcreate -L 1G proc -n vaud```
 
-```pvcreate /dev/mapper/(nama_device)```
-
-## Buat volume grub
-
-```vgcreate nama_grup /dev/mapper/(nama_device)```
-
-## Buat Logical Volume 
-
-```lvcreate -L 8G (nama_grup) -n root```
-
-```lvcreate -L 8G (nama_grup) -n vars```
-
-```lvcreate -L 1G (nama_grup) -n vlog```
-
-```lvcreate -L 1G (nama_grup) -n vtmp```
-
-```lvcreate -L 1G (nama_grup) -n vaud```
-
-```lvcreate -L 5G (nama_grup) -n home```
-
-```lvcreate -L 5G (nama_grup) -n podman```
+```lvcreate -L 1G proc -n home```
 
 ## Formating
 
-```mkfs.vfat -F32 -n BOOT /dev/partisi_boot```
+```mkfs.ext4 /dev/proc/root```
 
-```mkfs.ext4 /dev/namagrup/root```
+```mkfs.vfat -F32 -n BOOT /dev/[partisi boot]```
 
-```mkfs.ext4 /dev/namagrup/vars```
+```mkfs.ext4 /dev/proc/vars```
 
-```mkfs.ext4 /dev/namagrup/vtmp```
+```mkfs.ext4 /dev/proc/vtmp```
 
-```mkfs.ext4 /dev/namagrup/vaud```
+```mkfs.ext4 /dev/proc/vlog```
 
-```mkfs.ext4 /dev/namagrup/vlog```
+```mkfs.ext4 /dev/proc/vaud```
 
-```mkfs.ext4 /dev/namagrup/home```
-
-```mkfs.ext4 /dev/namagrup/podman```
+```mkfs.ext4 /dev/proc/home```
 
 ## Mounting
 
-```mount /dev/nama grup/root /mnt```
+```mount /dev/proc/root /mnt```
 
-```mount --mkdir -o uid=0,gid=0,fmask=0077,dmask=0077 /dev/partisi_boot /mnt/boot```
+```mount --mkdir -o uid=0,gid=0,fmask=0077,dmask=0077 /dev/[partisi boot] /mnt/boot```
 
-```mount --mkdir -o rw,nodev,nosuid,relatime /dev/namagrup/vars /mnt/var```
+```mount --mkdir -o rw,nodev,nosuid,relatime /dev/proc/vars /mnt/var```
 
-```mount --mkdir -o rw,nodev,nosuid,noexec,relatime /dev/namagrup/vtmp /mnt/var/tmp```
+```mount --mkdir -o rw,nodev,nosuid,noexec,relatime /dev/proc/vtmp /mnt/var/tmp```
 
-```mount --mkdir -o rw,nosuid,noexec,relatime /dev/namagrup/vlog /mnt/var/log```
+```mount --mkdir -o rw,nosuid,noexec,relatime /dev/proc/vlog /mnt/var/log```
 
-```mount --mkdir -o rw,nosuid,noexec,relatime /dev/namagrup/vaud /mnt/var/log/audit```
+```mount --mkdir -o rw,nosuid,noexec,relatime /dev/proc/vaud /mnt/var/log/audit```
 
-```mount --mkdir -o rw,nosuid,relatime /dev/namagrup/home /mnt/home```
+```mount --mkdir -o rw,nosuid,relatime /dev/proc/home /mnt/home```
 
-```mount --mkdir -o rw,nosuid,noexec,relatime /dev/namagrup/podman /mnt/var/lib/containers```
+## Setup LUKS
 
-## Periksa kembali
+```lvcreate -l50%FREE proc -n [nama]```
 
-```lsblk```
+```cryptsetup luksFormat /dev/proc/[nama]```
 
 ## Install Package 
 
 ### intel
+
 ```pacstrap /mnt intel-ucode linux-lts linux-lts-headers linux-firmware lvm2 base base-devel neovim openssh superfile podman podman-desktop iptables mpd mpc mpv keepassxc secrets booster networkmanager pam_mount```
 
 ### amd
+
 ```pacstrap /mnt amd-ucode linux-lts linux-lts-headers linux-firmware lvm2 base base-devel neovim openssh superfile podman podman-desktop iptables mpd mpc mpv keepassxc secrets booster networkmanager pam_mount```
 
 ## Fstab
 
 ```genfstab -U /mnt > /mnt/etc/fstab```
 
-## Salin Setingan Jaringan
-
-```cp /etc/systemd/network/* /mnt/etc/systemd/network```
-
 ## Formating tmpfs ke tmp
+
 ```echo "/tmpfs /tmp  tmpfs  defaults,nosuid,nodev,noexec,size=1G  0  0" >> /mnt/etc/fstab```
 
-## Periksa Kembali
-
-```cat /mnt/etc/fstab```
-
-## Masuk ke Sistem
+## chroot
 
 ```arch-chroot /mnt```
+
+```echo [nama] > /etc/hostname```
 
 ## Localtime
 
@@ -164,72 +149,200 @@ root = 49G [linux filesystem/]
 ```nvim /etc/locale.gen```
 **di pencarian nvim menggunakan `/`**
 
-lalu ```uncommenting kedua en_US```
+```uncommenting kedua en_US```
 
 ### generate bahasa yg di uncommenting 
+
 ```locale-gen```
 
 ```locale > /etc/locale.conf```
 
 ### config locale
+
 ```nvim /etc/locale.conf```
 
 ### config file locale 
-isi ```lang=C``` menjadi ```lang=en_US.UTF-8```
-dan isi ```ALL=en_US.UTF-8```
 
-## Buat user, contoh kenari
+```isi lang=C menjadi lang=en_US.UTF-8 dan isi ALL=en_US.UTF-8```
 
-```useradd -m kenari```
+## pam_mount
 
-```passwd kenari```
+```cryptsetup luksOpen /dev/proc/miya [nama device]```
 
-```echo "kenari ALL=(ALL:ALL) ALL" >  /etc/sudoers.d/kenari```
+```mkfs.ext4 /dev/mapper [nama device]```
 
-## Atur Parameter
+## Membuat user
 
-```mkdir /etc/cmdline.d```
+```mkdir /home/user```
 
-```touch /etc/cmdline.d/{01-boot.conf,02-misc.conf}```
+```useradd -d /home/user mia```
 
-```echo "rd.luks.name=$(blkid -s UUID -o value /dev/partisi root)=nama device root=/dev/nama grup/root" > /etc/cmdline.d/01-boot.conf```
+```passwd mia```
 
-```echo "rw" > /etc/cmdline.d/02-misc.conf```
+```chown -R [username]:[username] /home/user```
 
-## Atur mkinitcpio
+```passwd```
 
-```nvim /etc/mkinitcpio.conf```
+```echo "mia ALL=(ALL:ALL) ALL" >  /etc/sudoers.d/none```
 
-***cari di bagian Hooks pas ada tulisan block itu di spasi sekali lalu ketik "sd-encrypt" spasi lagi sekali lalu ketik "lvm2"***
-
-## Install bootctl
-
-```bootctl --path=/mnt/boot install ```
-
-**jika bukan laptop Lenovo, Lenovo bootctl nya harus di luar dari arch-chroot**
-
-```mkinitcpio -P```
-
-## Aktifkan sebagai berikut
+## Config volume
 
 ```
-systemctl enable systemd-networkd
-systemctl enable systemd-resolved 
-systemctl enable iwd 
+nvim /etc/security/pam_mount.conf.xml
 ```
+```
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE pam_mount SYSTEM "pam_mount.conf.xml.dtd">
+<!--
+	See pam_mount.conf(5) for a description.
+-->
+
+<pam_mount>
+
+		<!-- debug should come before everything else,
+		since this file is still processed in a single pass
+		from top-to-bottom -->
+
+<debug enable="0" />
+
+		<!-- Volume definitions -->
+
+
+		<!-- pam_mount parameters: General tunables -->
+
+<!--
+<luserconf name=".pam_mount.conf.xml" />
+-->
+
+<!-- Note that commenting out mntoptions will give you the defaults.
+     You will need to explicitly initialize it with the empty string
+     to reset the defaults to nothing. -->
+<mntoptions allow="nosuid,nodev,loop,encryption,fsck,nonempty,allow_root,allow_other" />
+<!--
+<mntoptions deny="suid,dev" />
+<mntoptions allow="*" />
+<mntoptions deny="*" />
+-->
+<mntoptions require="nosuid,nodev" />
+
+<!-- requires ofl from hxtools to be present -->
+<logout wait="0" hup="no" term="no" kill="no" />
+
+<!-- Example entry for a LUKS partition -->
+<volume 
+    user="[user name]" 
+    fstype="crypt" 
+    path="/dev/proc/[name]" 
+    mountpoint="/home/user]" 
+/>
+		<!-- pam_mount parameters: Volume-related -->
+
+<mkmountpoint enable="1" remove="true" />
+
+
+</pam_mount>
+```
+```
+<!-- Example entry for a LUKS partition -->
+<volume 
+    user="[user name]" 
+    fstype="crypt" 
+    path="/dev/proc/[user name]" 
+    mountpoint="/home/[user name]" 
+/>
+```
+
+## Mengupdate konfigurasi pam_mount
+
+```
+nvim /etc/pam.d/system-login
+```
+
+```
+#%PAM-1.0
+
+auth       required   pam_shells.so
+auth       requisite  pam_nologin.so
+auth       include    system-auth
+auth       required   pam_mount.so
+
+account    required   pam_access.so
+account    required   pam_nologin.so
+account    include    system-auth
+
+password   include    system-auth
+
+session    optional   pam_loginuid.so
+session    optional   pam_keyinit.so       force revoke
+session    include    system-auth
+session    optional   pam_lastlog2.so      silent
+session    optional   pam_motd.so
+session    optional   pam_mail.so          dir=/var/spool/mail standard quiet
+session    optional   pam_umask.so
+session    optional  pam_mount.so
+-session   optional   pam_systemd.so
+session    required   pam_env.so
+```
+
+## Booster
+
+```nvim /etc/booster.yaml```
+
+```
+network:
+  dhcp: on
+universal: false
+modules: -*,ext4 
+extra_files: fsck,fsck.ext4
+strip: true
+enable_lvm: true
+```
+
+## Prepare Boot
+
+```cd /boot``` 
+
+untuk cek kernel 
+
+```ls /usr/lib/modules```
+
+```booster build --kernel-version <version> /boot/booster-linux-lts-new.img```
+
+```rm -fr booster-linux-lts.img```
+
+## systemd-boot
+
+```bootctl --path=/boot install``` 
+
+```nvim /boot/loader/entries/booster.conf``` 
+
+```
+title    arch with booster
+linux    /vmlinuz-linux-lts
+initrd   /intel-ucode.img
+initrd   /booster-linux-lts-new.img
+options  root=/dev/proc/root rw
+```
+
+```nvim /boot/loader/loader.conf``` 
+
+add value
+```default  booster.conf``` 
+lalu ```esc``` ```:wq``` 
+
+```bootctl --graceful update ``` 
 
 ## Booting
 
-```
-exit
-umount -R /mnt
-```
+```exit``` 
 
-#### hentikan asciinema
+```umount -R /mnt```
+
+#### Hentikan asciinema
 
 ```CTRL+D```
 
-```asciineme upload nama_file.cast```
+```asciinema upload nama_file.cast```
 
 ```reboot```
 
