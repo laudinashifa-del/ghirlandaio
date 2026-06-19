@@ -3,7 +3,7 @@
 Masuk ke server menggunakan SSH:
 
 ```bash
-ssh kel10@192.168.2.110
+ssh hostname@192.168.2.110
 ```
 
 ## Konfigurasi Alamat IP Server
