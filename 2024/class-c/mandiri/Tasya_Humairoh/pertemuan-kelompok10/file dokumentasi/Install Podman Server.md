@@ -32,6 +32,9 @@ Insert
 ```
 
 **Kemudian ketik manual dengan mengikuti gambar dibawah ini**
+
+<img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/b0f9fc77-9453-4549-b965-1e88d57bf560" />
+
  
 ```
 esc :wq
@@ -56,6 +59,8 @@ sudo nvim /etc/modprobe.d/01-hard.conf
 ```
 **Ketik manual dan sesuaikan pada gambar dibawah ini**
  
+<img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/b9bfc145-ea53-4f85-a475-80df500dd31e" />
+
 
 ```
 mkinitcpio -P
