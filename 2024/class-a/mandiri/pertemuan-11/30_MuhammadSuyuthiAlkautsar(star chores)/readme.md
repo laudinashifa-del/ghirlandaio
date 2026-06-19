@@ -1,4 +1,4 @@
-copyright of kelompok 10 star chores
+copyright of kelompok 9 star chores
 
 
 do not read without permission
