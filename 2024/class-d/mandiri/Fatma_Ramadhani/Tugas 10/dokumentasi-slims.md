@@ -197,3 +197,7 @@ http://[IP Server]:80
 ```
 # Tampilan Slims dari kacamata Client
 <img width="1280" height="960" alt="image" src="https://github.com/user-attachments/assets/1dc7144a-cc22-45d3-9464-f8e718bf3b93" />
+
+**Tampilan dari hp client**
+
+<img width="717" height="1600" alt="image" src="https://github.com/user-attachments/assets/6d55fab1-e1c3-4331-a58c-d7db791bc5eb" />
