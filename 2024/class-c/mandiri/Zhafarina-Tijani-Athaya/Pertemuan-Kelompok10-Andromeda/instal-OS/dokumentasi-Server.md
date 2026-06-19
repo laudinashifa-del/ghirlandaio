@@ -202,7 +202,8 @@ echo "rd.luks.name=$(blkid -s UUID -o value /dev/sda7=tama) root=/dev/andromeda/
 ```
 nvim /etc/mkinitcpio.conf
 ```
-[masukin foto 1]
+<img width="681" height="67" alt="WhatsApp Image 2026-06-18 at 21 51 34" src="https://github.com/user-attachments/assets/d9de9bac-4c13-4bbd-97e2-fd46200c1ad8" />
+
 
 Setelah kata 'block' ketik 'sd-encrypt lvm2'
 
@@ -213,7 +214,8 @@ nvim /etc/mkinitcpio.d/linux-lts.preset
 
 ## Mengubah seperti yang ada di foto
 
-[masukin foto 2]
+<img width="517" height="289" alt="WhatsApp Image 2026-06-18 at 21 51 34 (1)" src="https://github.com/user-attachments/assets/2abfcfb7-e19a-48cf-8dd9-d8da2c161562" />
+
 
 ## Install bootctl
 ```
