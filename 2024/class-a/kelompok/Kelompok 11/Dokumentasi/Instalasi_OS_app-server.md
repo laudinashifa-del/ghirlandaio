@@ -39,5 +39,8 @@ ping 8.8.8.8
 ## 3. Install Arch Linux (Amanda Blackbird)
 
 ```bash
-pacman -Syu
-```
+sudo pacman -Syu
+
+```bash
+sudo pacman -S linux-hardened linux-hardened-headers
+
