@@ -1,4 +1,4 @@
-## Konfigurasi podman
+## Instal podman
 
 ## Rekam (Opsional)
 
