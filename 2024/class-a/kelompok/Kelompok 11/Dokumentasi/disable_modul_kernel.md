@@ -4,7 +4,7 @@
 nvim /etc/modprobe.d/hardening.conf
 ```
 
-edit file konfigurasi untuk menonaktifkan modul kernel yang tidak diperlukan.
+Mengedit file konfigurasi untuk menonaktifkan modul kernel yang tidak diperlukan.
 
 ```text
 install cramfs /bin/false
