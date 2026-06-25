@@ -17,12 +17,15 @@
 
 ## berikut analisis 3 permasalahan utama perpustakaan dan arsip dengan kaitannya terhadap implementasi teknologi informasi. 
 
-# Keterbatasan Infrastruktur fisik da nekosistem legacy
+# Keterbatasan Infrastruktur fisik dan nekosistem legacy
 
-banyak perpustakan yang terjebak pada sistem usang (legacy systems) dan infrastrukur fisik yang rentan, sehingga menghambat sklabilitas layanan.
+Banyak perpustakaan masih menghadapi keterbatasan infrastruktur teknologi dan sistem informasi sehingga layanan digital belum berjalan secara optimal.
 
 ## obsolesensi platform: 
-data menunjukan (no. 1) bahwa ketergantungan pada lingkungan sistem operasi lama (seperti DOS) membatasi penambahan fitur dan menyebabkan kendala memori. Ini adalah masalah mendasar dalam arsitektur pernagkat lunak; ketika fondasi usang, sistem tidak bisa merespon kebutuhan modern.
+Beberapa penelitian menunjukkan adanya keterbatasan platform, fitur sistem, serta perlunya pembaruan perangkat lunak (No. 1, No. 2, No. 3, dan No. 7). Pengembangan sistem, penggunaan versi terbaru, serta pemeliharaan teknologi menjadi kebutuhan agar layanan perpustakaan dapat mengikuti perkembangan teknologi informasi.
+
+## infrastruktur pendukung
+Keandalan layanan perpustakaan berbasis teknologi juga dipengaruhi oleh kesiapan infrastruktur seperti jaringan internet, media penyimpanan, UPS, dan mekanisme backup data (No. 2, No. 8, dan No. 10). Infrastruktur yang kurang memadai dapat menghambat akses informasi dan operasional layanan digital.
 
 ## Kerentanan Perangkat Keras dan Jaringan:
 Operasional otomasi sangat bergantung pada stabilitas hardware dan konektivitas (No. 2 dan No. 8). Hal-hal teknis yang sering dianggap sepele, seperti ketiadaan UPS, manajemen backup data yang buruk, hingga latensi internet yang tinggi, menjadi bottleneck (leher botol) yang melumpuhkan layanan sirkulasi dan akses referensi digital harian.
