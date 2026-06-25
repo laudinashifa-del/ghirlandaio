@@ -31,7 +31,7 @@ lsmod | grep blueetoth
 ```
 nvim /etc/modprobe.d/hardenings.conf
 ```
-### isi 
+### isi yang perlu disable
 ```
 install usb-storage /bin/false
 blacklist usb-storage
