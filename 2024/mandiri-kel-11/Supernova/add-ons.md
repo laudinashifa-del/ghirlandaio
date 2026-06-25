@@ -25,8 +25,10 @@
 ## 3 permasalahan utama perpustakaan dan arsip dalam implementasi teknologi informasi
 **1. Keterbatasan Infrastruktur dan Sistem Teknologi Informas**
 Banyak perpustakaan dan lembaga arsip masih menghadapi kendala jaringan internet, perangkat keras, kapasitas penyimpanan, migrasi data, serta sistem yang belum terintegrasi. Akibatnya, layanan informasi dan pengelolaan data belum berjalan optimal.
+
 **2. Keterbatasan Kompetensi dan Dukungan SDM Teknologi Informasi** 
 Implementasi teknologi informasi membutuhkan pustakawan dan arsiparis yang memiliki kompetensi TI. Namun, masih ditemukan kurangnya tenaga yang memiliki keahlian khusus di bidang otomasi, digitalisasi, maupun pengelolaan sistem informasi sehingga pemanfaatan teknologi belum maksimal.
+
 **3. Kualitas Data dan Efektivitas Sistem Temu Kembali Informasi**
 Masalah yang sering muncul adalah ketidaksesuaian data dalam sistem dengan kondisi koleksi atau arsip yang sebenarnya, data hasil migrasi yang belum diperbarui, serta fitur pencarian yang kurang efektif. Hal ini menyebabkan pengguna kesulitan menemukan informasi secara akurat dan cepat.
 
