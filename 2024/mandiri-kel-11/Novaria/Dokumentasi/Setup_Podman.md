@@ -11,8 +11,10 @@ cd /etc/containers
 sudo nvim /etc/containers/registries.conf
 ```
 ### lalu cari ada tulisa "unqualified"
+
 <img width="357" height="369" alt="image" src="https://github.com/user-attachments/assets/6e491ef1-fec2-42fe-9f0e-364fc061448a" />
-lalu bagian tersebut di hapus pagarnya dan "example.com" di ganti menajdi "docker.io"
+
+>lalu bagian tersebut di hapus pagarnya dan "example.com" di ganti menajdi "docker.io"
 
 ## setelah itu buar file configuration
 ```
