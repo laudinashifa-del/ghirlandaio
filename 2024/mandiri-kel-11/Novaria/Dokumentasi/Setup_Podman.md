@@ -1,4 +1,4 @@
-# kita enable terlebih dahulu podman nya secara global
+# kita enable terlebih dahulu podman-nya secara global
 ```
 sudo systemctl enbale --global podman
 ```
@@ -42,7 +42,7 @@ cd nova/
 ```
 # setelah masuk ke dalam directorynya
 kita buat folder untuk omeka
-```                                                                                                                                      
+```
 mkdir omeka
 ```
 # lalu masuk ke dalam folder omeka
@@ -53,40 +53,39 @@ cd omeka/
 ```
 mkdir config
 ```
-```                                                                                                                                          
-mkdir files
+```
+mkdir files                                                                       
 ```
 # lalu kita ls apakah sudah terbuat apa tidak
 ```
 ls
 ```
 # setelah itu kita beri akses
-
-```                                                                                                                                                      
-chmod -R 777 config/                                                                                                                                  
+```
+chmod -R 777 config/
 chmod -R 777 files/
 ```
-```                                                                                                                       
+```
 ls -la
 ```
-# masuk kedalam foled config
+# masuk ke dalam foled config
 ```
 cd config/
-```                                                                                                                                            
+```
 # kita buat file databasenya
 ```
 nvim database.ini
 ```
 isi
 
-<img width="71" height="34" alt="Screenshot 2026-06-25 202346" src="https://github.com/user-attachments/assets/4ed1c874-067e-4fa0-9ffd-cd19c6117acc" />
+<img width="71" height="34" alt="Screenshot 2026-06-25 202346" src="https://github.com/uattachments/assets/4ed1c874-067e-4fa0-9ffd-cd19c6117acc" />
 
 # setelah di isi
 keluar dari folde config
 ```
 cd ..
 ```
-#pastikan berapa di dalam folder omeka
+# pastikan berapa di dalam folder omeka
 #### setelah itu kita buat file docker-composenya
 ```
 nvim docker-compose.yml
@@ -94,10 +93,10 @@ nvim docker-compose.yml
 
 <img width="193" height="106" alt="Screenshot 2026-06-25 203603" src="https://github.com/user-attachments/assets/f81de28c-5316-4884-bc28-e1d7188ab6a5" />
 
-# setelah dibuat runningkan docker-composeny
-
+# setelah dibuat running-kan docker-compose nya
 ```
-podman compose up -d                                                                                                                                  
+podman compose up -d
+```                                                                                                                                  
 ```
 
 
