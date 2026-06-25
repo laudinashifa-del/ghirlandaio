@@ -1,4 +1,4 @@
-
+## Tabel Skripsi Teknologi Informasi Tahun (1999-Sekarang)
 | No. | Judul | Penulis | Tahun | Kesimpulan & Saran |
 |-----|--------|---------|--------|-------------------|
 | 1. | Analisis Penerapan Program Aplikasi NCI Bookman Ver. 3.10 pada Perpustakaan PT. Bank "X" (Persero) Tbk. |  Abdul Khoir | 2005 | Program aplikasi NCI Bookman Ver. 3.10 yang diterapkan pada Perpustakaan PT. Bank "X" (Persero) Tbk. mampu menangani sebagian besar kegiatan rutin perpustakaan secara terintegrasi melalui menu Manajemen User, Koleksi, Aktivitas, dan Laporan. Program ini memudahkan pengelolaan perpustakaan serta telah memenuhi standar metadata katalog perpustakaan berdasarkan Dublin Core dan Indomarc. Selain itu, sistem memiliki antarmuka yang mudah digunakan, fitur keamanan akses, serta mendukung penggunaan jaringan LAN untuk operasional multi-user. Namun, pengembangan sistem otomasi tetap diperlukan agar dapat mengikuti perkembangan teknologi informasi dan meningkatkan kualitas layanan perpustakaan.
