@@ -141,7 +141,8 @@ output:
 ``` 
 
 ## 24. Cek status firewalld
- ```bash systemctl status firewalld
+ ```bash
+systemctl status firewalld
  ``` 
 
 ## 25. Uji akses web server
