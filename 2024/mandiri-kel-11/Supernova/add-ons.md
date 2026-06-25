@@ -23,7 +23,7 @@
 9. Penelitian ini menunjukkan bahwa teknologi digital mampu meningkatkan kualitas layanan perpustakaan. Namun, berbagai permasalahan masih dihadapi, seperti keterbatasan akses terhadap teknologi, keamanan informasi pengguna yang belum optimal, kualitas jaringan internet yang belum memadai, serta berbagai gangguan teknis pada sistem digital. Oleh karena itu, diperlukan penguatan infrastruktur teknologi, peningkatan keamanan data, dan pengembangan literasi digital bagi pustakawan maupun pemustaka untuk mendukung layanan perpustakaan digital yang lebih efektif.
 
 ## 3 permasalahan utama perpustakaan dan arsip dalam implementasi teknologi informasi
-**1. Keterbatasan Infrastruktur dan Sistem Teknologi Informas**
+**1. Keterbatasan Infrastruktur dan Sistem Teknologi Informasi**
 Banyak perpustakaan dan lembaga arsip masih menghadapi kendala jaringan internet, perangkat keras, kapasitas penyimpanan, migrasi data, serta sistem yang belum terintegrasi. Akibatnya, layanan informasi dan pengelolaan data belum berjalan optimal.
 
 **2. Keterbatasan Kompetensi dan Dukungan SDM Teknologi Informasi** 
