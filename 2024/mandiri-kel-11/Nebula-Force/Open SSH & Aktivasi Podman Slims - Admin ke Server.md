@@ -5,7 +5,7 @@ ssh force @192.168.6.1
 ```
 ssh force @127.0.0.1
 ```
-```
+
 **masukkin password**
 ```
 ```
