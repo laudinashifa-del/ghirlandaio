@@ -1,4 +1,4 @@
-# Konfigurasi Firewalld
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/1e3bc576-a029-4539-9dcf-097ab748816f" /># Konfigurasi Firewalld
 
 ## 1. Melihat konfigurasi firewall
 
@@ -52,8 +52,13 @@ firewall-cmd --zone=public --permanent --add-rich-rule='rule family="ipv4" sourc
 firewall-cmd --reload
 ```
 
+
 ## 7. Verifikasi akhir
 
 ```
 firewall-cmd --list-all-zones
 ```
+
+
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/170a8b75-cb71-4b3b-9c88-e2e92f31b23d" />
+
