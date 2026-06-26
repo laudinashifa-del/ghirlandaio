@@ -1,4 +1,4 @@
-# Setup Firewalld kedua
+# Setup Firewalld
 
 ### 1. Lihat seluruh zona
 
