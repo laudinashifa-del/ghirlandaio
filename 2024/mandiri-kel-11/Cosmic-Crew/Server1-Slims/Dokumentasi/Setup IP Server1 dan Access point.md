@@ -31,7 +31,7 @@ RouteMetric=100
 RouteMetric=100
 ```
 
-# Akses Point
+# Konfigurasi Access Point
 
 ## Konfigurasi IWD
 ```
