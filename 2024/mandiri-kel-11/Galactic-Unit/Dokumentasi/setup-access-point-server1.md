@@ -58,3 +58,6 @@ sudo firewall-cmd --zone=public --add-rich-rule='rule family="ipv4" source addre
 ```
 sudo firewall-cmd --reload
 ```
+
+# Bukti sudah ada hotspot1
+<img width="720" height="1600" alt="WhatsApp Image 2026-06-26 at 08 58 32" src="https://github.com/user-attachments/assets/6fcf05c7-78af-48cd-82e1-223b8514e33a" />
